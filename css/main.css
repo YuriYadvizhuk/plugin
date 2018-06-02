@@ -1,5 +1,23 @@
 @charset "UTF-8";
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:200");
+@import url(font-awesome.min.css);
+@font-face {
+  font-family: "SourceSansProRegular";
+  src: url("../fonts/SourceSansProRegular/SourceSansProRegular.eot");
+  src: url("../fonts/SourceSansProRegular/SourceSansProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansProRegular/SourceSansProRegular.woff") format("woff"), url("../fonts/SourceSansProRegular/SourceSansProRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "SourceSansProLight";
+  src: url("../fonts/SourceSansProLight/SourceSansProLight.eot");
+  src: url("../fonts/SourceSansProLight/SourceSansProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansProLight/SourceSansProLight.woff") format("woff"), url("../fonts/SourceSansProLight/SourceSansProLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "SourceSansProBold";
+  src: url("../fonts/SourceSansProBold/SourceSansProBold.eot");
+  src: url("../fonts/SourceSansProBold/SourceSansProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansProBold/SourceSansProBold.woff") format("woff"), url("../fonts/SourceSansProBold/SourceSansProBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -912,7 +930,6 @@ body {
     display: block;
     width: 100%;
     margin: 0 0 2em 0;
-    text-align: center;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
@@ -1086,7 +1103,7 @@ body {
   background-size: cover;
   background-position: top center;
   color: rgba(255, 255, 255, 0.65);
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "SourceSansProLight", Helvetica, sans-serif;
   font-size: 13pt;
   font-weight: 200;
   line-height: 1.65; }
@@ -1112,9 +1129,9 @@ body {
 @media screen and (max-width: 480px) {
   html, body {
     min-width: 320px; } }
-input, select, textarea {
+input, select, textarea, h3 {
   color: rgba(255, 255, 255, 0.65);
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "SourceSansProBold", Helvetica, sans-serif;
   font-size: 13pt;
   font-weight: 200;
   line-height: 1.65; }
