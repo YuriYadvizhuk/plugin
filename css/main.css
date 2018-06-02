@@ -954,7 +954,7 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    width: calc(100% / 4);
+    width: calc(100% / 5);
     padding-left: 2em; }
     .thumbnails > div > :last-child {
       margin-bottom: 0em; }
@@ -1816,9 +1816,6 @@ button.disabled, button:disabled {
 
 @media screen and (max-width: 480px) {
   input[type="submit"], input[type="reset"], input[type="button"] {
-    padding: 0; }
-
-  button, .button {
     padding: 0; } }
 .modal {
   will-change: visibility, opacity;
