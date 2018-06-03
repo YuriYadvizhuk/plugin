@@ -63,7 +63,6 @@ body {
     box-sizing: border-box; }
 
 .row {
-  border-bottom: solid 1px transparent;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -959,6 +958,10 @@ body {
     .thumbnails > div > :last-child {
       margin-bottom: 0em; }
 
+.design {
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25), 0 0 0.5em 0 #FF6382; }
+
 .thumbnails a h3 {
   margin: 1em; }
 
@@ -1142,7 +1145,6 @@ input, select, textarea, h3 {
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
   -moz-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -webkit-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
