@@ -1685,7 +1685,8 @@ button, .button {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  margin-right: 5px; }
+  margin-right: 5px;
+  background: firebrick;}
 
 button, .button:hover{
   background-color: rgba(255, 255, 255, 0.25);
@@ -1867,8 +1868,8 @@ button.disabled, button:disabled {
   transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1); }
   .modal__content p, .modal__content h1 {
     color: #333; }
-  .modal__content a {
-    color: #FFF; }
+  .modal__content,  a {
+    color: #FFF;}
 
 .modal__content--active {
   opacity: 1; }
